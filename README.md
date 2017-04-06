@@ -21,12 +21,12 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 [High Resolution available here](using-schematic.png)  
 
 # Terminology
-- IBM Cloud Schematics - The service overlay that enables teams to more easily and safely take advantage of Terraform with IBM Bluemix.
-- [Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code) - which encapsulates all cloud resources. These can be any IaaS component such as baremetal servers, virtual machines, containers, load balancers, software defined networking components, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
-- [Terraform](https://www.terraform.io/) - The underlying IaC engine used by IBM Cloud Schematics.
-- [Configurations](https://www.terraform.io/docs/configuration/index.html) - A collection of Terraform files which defines the infrastructure as code.
-- [Modules](https://www.terraform.io/docs/modules/index.html) - A special reusable configuration that is often used as a building block that encapsulates a certain functionality. Used in both configurations and by other modules. A configuration or module can include _N_ modules.
-- [Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html) - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
+- **IBM Cloud Schematics** - The service overlay that enables teams to more easily and safely take advantage of Terraform with IBM Bluemix.
+- **[Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)** - which encapsulates all cloud resources. These can be any IaaS component such as baremetal servers, virtual machines, containers, load balancers, software defined networking components, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
+- **[Terraform](https://www.terraform.io/)** - The underlying IaC engine used by IBM Cloud Schematics.
+- **Schematic** - is another term for a [Terrform Configuration](https://www.terraform.io/docs/configuration/index.html) which is a collection of Terraform files which defines the infrastructure as code.
+- **[Modules](https://www.terraform.io/docs/modules/index.html)** - A special reusable configuration that is often used as a building block that encapsulates a certain functionality. Used in both configurations and by other modules. A configuration or module can include _N_ modules.
+- **[Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html)** - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
 
 # Early Access
 Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/) from a users local machine. You must be a "[Sponser User](#sponser-user)" to gain early access.
