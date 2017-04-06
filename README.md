@@ -4,9 +4,11 @@ An on-boarding kit for the IBM Bluemix Schematics service.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Video of Terraform Execution](#video-of-terraform-execution)
 - [Terminology](#terminology)
+- [Terraform Documentation & Resources Supported](#terraform-documentation--resources-supported)
 - [Early Access](#early-access)
 - [Sponsor Users](#sponsor-users)
   - [Communication and Collaboration](#communication-and-collaboration)
