@@ -22,3 +22,19 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 - [Modules](https://www.terraform.io/docs/modules/index.html) - A special reusable configuration that is often used as a building block that encapsulates a certain functionality. Used in both configurations and by other modules. A configuration or module can include _N_ modules.
 - [Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html) - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
 
+# Early Access
+Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/)
+
+# Sponsor Users
+IBM Cloud Schematics will invite users to become sponsor users which are partners which we intend to work closely with to help solve their problems with our product. This will involve hands on observation and working sessions with development/operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
+
+## Communication and Collaboration
+- [Slack](https://ibm-blueprint-service.slack.com/signup)
+- [GitHub](https://github.com/)
+- Email
+
+## Support & Feedback Loops
+- 2-hr on-boarding session (day one)
+- 2-hr follow-up working session (day three)
+- Ongoing collaboration via Slack, Email, GitHub
+- Bi-monthly 1-hr sync sessions (every two weeks)
