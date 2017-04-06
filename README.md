@@ -12,7 +12,7 @@ An on-boarding kit for the IBM Bluemix Schematics service.
 - [Early Access](#early-access)
 - [Sponsor Users](#sponsor-users)
   - [Communication and Collaboration](#communication-and-collaboration)
-  - [Support & Feedback Loops](#support--feedback-loops)
+  - [Introductions, On-boarding, Support, Feedback Loops](#introductions-on-boarding-support-feedback-loops)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Install IBM Cloud Terraform](#install-ibm-cloud-terraform)
@@ -77,7 +77,7 @@ See the "[Getting Started](#getting-started)" section for further details on wha
 - [GitHub](https://github.com/)
 - [Email](mailto:ckelner@us.ibm.com)
 
-## Introductions, On-boarding, Support, Feedback Loops and meetings
+## Introductions, On-boarding, Support, Feedback Loops
 - 1-hr Sponser user introduction and deep-dive into your architecture
 - 2-hr on-boarding development and technical dive session
 - 2-hr follow-up working session (get something real built)
