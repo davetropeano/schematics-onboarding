@@ -43,10 +43,15 @@ See the "[Getting Started](#getting-started)" section for further details on wha
 - Ongoing collaboration via Slack, Email, GitHub
 - Bi-monthly 1-hr sync sessions (every two weeks)
 
-# Getting Started
-
+# Getting Started  
 ## Prerequisites  
 ## Install IBM Cloud Terraform  
-IBM currently has an independent binary from Terraform core. Currently there are two flavors available, one for linux and one for OSX (both for amd64 architectures).
+IBM currently has an independent binary from Terraform core. Currently there are two flavors available, one for linux and one for OSX (both for amd64 architectures). The current version is based on terraform `0.9.1`.
 
 Please obtain the password from the IBM Schematics team to access these binaries: [click here to download](https://www.dropbox.com/sh/c18vcjnm5okizcz/AACAqFImsZw3GvQw9knb-ui_a?dl=0).
+
+### OSX
+Place the `terraform` binary into `/usr/local/bin`. If you already have `terraform` installed on your system and you want to continue to use it, you'll need to update your `$PATH` environment variable to make `/usr/local/bin` take precedence, OR rename the IBM Cloud terraform binary to something else (e.g. `ibm-cloud-tf`). If you decide to update `$PATH` you can simply add `export PATH=/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH` to your `~/.bashrc` or `~/.profile` (if those files don't exist you can create them) and open a new terminal to take effect.
+
+### Linux
+Place the `terraform` binary into `/usr/local/`. If you already have `terraform` installed on your system and you want to continue to use it rename the IBM Cloud terraform binary to something else (e.g. `ibm-cloud-tf`).
