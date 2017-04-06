@@ -1,6 +1,28 @@
 # IBM Bluemix Schematics Service On-boarding
 An on-boarding kit for the IBM Bluemix Schematics service.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+- [Introduction](#introduction)
+- [Video of Terraform Execution](#video-of-terraform-execution)
+- [Terminology](#terminology)
+- [Early Access](#early-access)
+- [Sponsor Users](#sponsor-users)
+  - [Communication and Collaboration](#communication-and-collaboration)
+  - [Support & Feedback Loops](#support--feedback-loops)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install IBM Cloud Terraform](#install-ibm-cloud-terraform)
+    - [OSX](#osx)
+    - [Linux](#linux)
+  - [Create Cloud Resources using Terraform](#create-cloud-resources-using-terraform)
+- [Examples](#examples)
+  - [Schematics](#schematics)
+  - [Modules](#modules)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Introduction
 Modern cloud infrastructure ranges from bare metal servers, to virtual machines, to containers, to managed services, to SaaS, to PaaS, and beyond.  Many times that infrastructure spans multiple data centers, companies, products, and regions around the world. Modern infrastructure is cloud native and global scale.
 
