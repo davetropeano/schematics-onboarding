@@ -23,10 +23,13 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 - [Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html) - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
 
 # Early Access
-Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/) from a users local machine. IBM currently has an independent binary from Terraform core. Currently there are two flavors available, one for linux and one for OSX (both for amd64 architectures). Please obtain the password from the IBM Schematics team to access these binaries: [click here to download](https://www.dropbox.com/sh/c18vcjnm5okizcz/AACAqFImsZw3GvQw9knb-ui_a?dl=0).
+Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/) from a users local machine. You must be a "[Sponser User](#sponser-user)" to gain early access.
 
 # Sponsor Users
 IBM Cloud Schematics will invite users to become sponsor users which are partners which we intend to work closely with to help solve their problems with our product. This will involve hands on observation and working sessions with development/operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
+
+
+See the "[Getting Started](#getting-started)" section for further details on what to do next.
 
 ## Communication and Collaboration
 - [Slack](https://ibm-blueprint-service.slack.com/signup)
