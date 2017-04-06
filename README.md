@@ -20,6 +20,10 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 ![Using a Schematic](using-schematic.jpg)  
 [High Resolution available here](using-schematic.png)  
 
+# Video of Terraform Execution
+
+[Click here to watch a video of Terraform Plan, Apply, and Destroy](https://youtu.be/vTKeWTfalTU)
+
 # Terminology
 - **IBM Cloud Schematics** - The service overlay that enables teams to more easily and safely take advantage of Terraform with IBM Bluemix.
 - **[Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)** - which encapsulates all cloud resources. These can be any IaaS component such as baremetal servers, virtual machines, containers, load balancers, software defined networking components, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
@@ -63,3 +67,7 @@ Place the `terraform` binary into `/usr/local/bin`. If you already have `terrafo
 
 ### Linux
 Place the `terraform` binary into `/usr/local/`. If you already have `terraform` installed on your system and you want to continue to use it rename the IBM Cloud terraform binary to something else (e.g. `ibm-cloud-tf`).
+
+## Create Cloud Resources using Terraform
+
+Navigate to [https://github.com/IBM-Bluemix/tf-single-vm](https://github.com/IBM-Bluemix/tf-single-vm) and follow the directions in the README. It will guide you through setting up your credentials and executing Terraform to create running resources from the configuration.
