@@ -56,7 +56,7 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
   - [An Example can be found here: github.com/tf_ibmcloud_local_loadbalancer ](https://github.com/ckelner/tf_ibmcloud_local_loadbalancer)
 - **[Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html)** - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
 
-# Terraform Documentation
+# Terraform Documentation & Resources Supported
 
 [Click here for the temporary Terraform documentation](http://ibmcloudterraformdocs.chriskelner.com/docs/providers/ibmcloud/index.html)
 
