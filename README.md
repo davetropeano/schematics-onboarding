@@ -41,7 +41,7 @@ See the "[Getting Started](#getting-started)" section for further details on wha
 ## Communication and Collaboration
 - [Slack](https://ibm-blueprint-service.slack.com/signup)
 - [GitHub](https://github.com/)
-- Email
+- [Email](mailto:ckelner@us.ibm.com)
 
 ## Support & Feedback Loops
 - 2-hr on-boarding session (day one)
