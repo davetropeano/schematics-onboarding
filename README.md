@@ -57,10 +57,10 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 - **[Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html)** - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
 
 # Early Access
-Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/) from a users local machine. You must be a "[Sponser User](#sponser-user)" to gain early access.
+Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/) from a users local machine. You must be a "[Sponser User](#sponser-users)" to gain early access.
 
 # Sponsor Users
-IBM Cloud Schematics will invite users to become sponsor users which are partners which we intend to work closely with to help solve their problems with our product. This will involve hands on observation and working sessions with development/operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
+IBM Cloud Schematics will invite companies to be sponsor users; The sponsor user program at IBM creates a partnership between the two companies which will have the two work closely so that IBM can solve the sponsor user's problems with the IBM product. It also enables the sponsor user to gain access to the internal progress of the product as well as influence over the direction and roadmap. This involves hands on observation and working sessions with development and operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
 
 If you are not already a sponsor user, but are interested in becoming one, please contact [ckelner@us.ibm.com](mailto:ckelner@us.ibm.com) with subject line "Schematics Sponsor User" introducing yourself.
 
