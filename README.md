@@ -28,6 +28,7 @@ Currently the service itself is not available (as of April 06 2017). Early acces
 # Sponsor Users
 IBM Cloud Schematics will invite users to become sponsor users which are partners which we intend to work closely with to help solve their problems with our product. This will involve hands on observation and working sessions with development/operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
 
+If you are not already a sponsor user, but are interested in becoming one, please contact [ckelner@us.ibm.com](mailto:ckelner@us.ibm.com) with subject line "Schematics Sponsor User" introducing yourself.
 
 See the "[Getting Started](#getting-started)" section for further details on what to do next.
 
@@ -41,3 +42,11 @@ See the "[Getting Started](#getting-started)" section for further details on wha
 - 2-hr follow-up working session (day three)
 - Ongoing collaboration via Slack, Email, GitHub
 - Bi-monthly 1-hr sync sessions (every two weeks)
+
+# Getting Started
+
+## Prerequisites  
+## Install IBM Cloud Terraform  
+IBM currently has an independent binary from Terraform core. Currently there are two flavors available, one for linux and one for OSX (both for amd64 architectures).
+
+Please obtain the password from the IBM Schematics team to access these binaries: [click here to download](https://www.dropbox.com/sh/c18vcjnm5okizcz/AACAqFImsZw3GvQw9knb-ui_a?dl=0).
