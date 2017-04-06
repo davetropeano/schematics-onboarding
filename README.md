@@ -25,7 +25,9 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 - **[Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)** - which encapsulates all cloud resources. These can be any IaaS component such as baremetal servers, virtual machines, containers, load balancers, software defined networking components, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
 - **[Terraform](https://www.terraform.io/)** - The underlying IaC engine used by IBM Cloud Schematics.
 - **Schematic** - is another term for a [Terrform Configuration](https://www.terraform.io/docs/configuration/index.html) which is a collection of Terraform files which defines the infrastructure as code.
+  - [An Example can be found here: github.com/tf-bluemix-loadbalanced-nginx ](https://github.com/ckelner/tf-bluemix-loadbalanced-nginx)
 - **[Modules](https://www.terraform.io/docs/modules/index.html)** - A special reusable configuration that is often used as a building block that encapsulates a certain functionality. Used in both configurations and by other modules. A configuration or module can include _N_ modules.
+  - [An Example can be found here: github.com/tf_ibmcloud_local_loadbalancer ](https://github.com/ckelner/tf_ibmcloud_local_loadbalancer)
 - **[Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html)** - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
 
 # Early Access
