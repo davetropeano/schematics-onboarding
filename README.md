@@ -60,13 +60,13 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 
 # Terraform Documentation & Resources Supported
 
-[Click here for the temporary Terraform documentation](http://ibmcloudterraformdocs.chriskelner.com/docs/providers/ibmcloud/index.html)
+[Click here for the temporary Terraform documentation](http://ibmcloudterraformdocs.chriskelner.com/docs/providers/ibmcloud/index.html) - _IBM is working on a more permanent and professional home for Terraform documentation - stay tuned_
 
 # Early Access
-Currently the service itself is not available (as of April 06 2017). Early access involves using [Terraform](https://www.terraform.io/) from a users local machine. You must be a "[Sponser User](#sponser-users)" to gain early access.
+Currently the service itself is not available (as of April 06 2017). Early access involves using an IBM supplied and custom-built [Terraform](https://www.terraform.io/) binary from a users local machine (_not publicaly available_). You must be a "[Sponser User](#sponser-users)" to gain early access.
 
 # Sponsor Users
-IBM Cloud Schematics will invite companies to be sponsor users; The sponsor user program at IBM creates a partnership between the two companies which will have the two work closely so that IBM can solve the sponsor user's problems with the IBM product. It also enables the sponsor user to gain access to the internal progress of the product as well as influence over the direction and roadmap. This involves hands on observation and working sessions with development and operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
+IBM Cloud Schematics will invite companies to be sponsor users; The sponsor user program at IBM creates a partnership between the two companies which will have the two work closely so that IBM can solve the sponsor user's problems with the IBM Cloud Schematics product and the Bluemix platform. It also enables the sponsor user to gain access to the internal progress of the product as well as influence over the direction and roadmap. This involves hands on observation and working sessions with development and operation teams. A more in-depth presentation and discussion will explain the details of what it means to be a sponsor user.
 
 If you are not already a sponsor user, but are interested in becoming one, please contact [ckelner@us.ibm.com](mailto:ckelner@us.ibm.com) with subject line "Schematics Sponsor User" introducing yourself.
 
@@ -77,18 +77,21 @@ See the "[Getting Started](#getting-started)" section for further details on wha
 - [GitHub](https://github.com/)
 - [Email](mailto:ckelner@us.ibm.com)
 
-## Support & Feedback Loops
-- 2-hr on-boarding session (day one)
-- 2-hr follow-up working session (day three)
+## Introductions, On-boarding, Support, Feedback Loops and meetings
+- 1-hr Sponser user introduction and deep-dive into your architecture
+- 2-hr on-boarding development and technical dive session
+- 2-hr follow-up working session (get something real built)
 - Ongoing collaboration via Slack, Email, GitHub
 - Bi-monthly 1-hr sync sessions (every two weeks)
 
 # Getting Started  
 ## Prerequisites  
+You must be a "[Sponser User](#sponser-users)" before you can complete the following steps.
+
 ## Install IBM Cloud Terraform  
 IBM currently has an independent binary from Terraform core. Currently there are two flavors available, one for linux and one for OSX (both for amd64 architectures). The current version is based on terraform `0.9.1`.
 
-Please obtain the password from the IBM Schematics team to access these binaries: [click here to download](https://www.dropbox.com/sh/c18vcjnm5okizcz/AACAqFImsZw3GvQw9knb-ui_a?dl=0).
+Please obtain the password from the IBM Schematics team to download these binaries: [click here to download](https://www.dropbox.com/sh/c18vcjnm5okizcz/AACAqFImsZw3GvQw9knb-ui_a?dl=0).
 
 ### OSX
 Place the `terraform` binary into `/usr/local/bin`. If you already have `terraform` installed on your system and you want to continue to use it, you'll need to update your `$PATH` environment variable to make `/usr/local/bin` take precedence, OR rename the IBM Cloud terraform binary to something else (e.g. `ibm-cloud-tf`). If you decide to update `$PATH` you can simply add `export PATH=/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH` to your `~/.bashrc` or `~/.profile` (if those files don't exist you can create them) and open a new terminal to take effect.
