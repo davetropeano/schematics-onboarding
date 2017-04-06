@@ -71,3 +71,11 @@ Place the `terraform` binary into `/usr/local/`. If you already have `terraform`
 ## Create Cloud Resources using Terraform
 
 Navigate to [https://github.com/IBM-Bluemix/tf-single-vm](https://github.com/IBM-Bluemix/tf-single-vm) and follow the directions in the README. It will guide you through setting up your credentials and executing Terraform to create running resources from the configuration.
+
+# Examples  
+## Schematics  
+- [tf-single-vm](https://github.com/IBM-Bluemix/tf-single-vm)
+- [tf-bluemix-loadbalanced-nginx](https://github.com/ckelner/tf-bluemix-loadbalanced-nginx)
+
+## Modules  
+- [tf_ibmcloud_local_loadbalancer](https://github.com/ckelner/tf_ibmcloud_local_loadbalancer)
