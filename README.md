@@ -14,6 +14,12 @@ IBM Cloud Schematics gives IBM a way to offer infrastructure building blocks to 
 
 IBM Cloud Schematics further enables teams and companies to build up a library of componentry that can be reused again and again to net the same results.  From tiny building blocks to complete solutions. Need a hadoop cluster? There is a module to do that, just plug in your variables! This allows cross-team and cross-organization code reuse and ensures that the company is working to solve problems as a unit and solving them in the best way possible.
 
+![Anatomy of a Schematic](anatomy-schematic.jpg)  
+[High Resolution available here](anatomy-schematic.png)  
+
+![Using a Schematic](using-schematic.jpg)  
+[High Resolution available here](using-schematic.png)  
+
 # Terminology
 - IBM Cloud Schematics - The service overlay that enables teams to more easily and safely take advantage of Terraform with IBM Bluemix.
 - [Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code) - which encapsulates all cloud resources. These can be any IaaS component such as baremetal servers, virtual machines, containers, load balancers, software defined networking components, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
