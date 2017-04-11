@@ -20,7 +20,7 @@ An on-boarding kit for the IBM Bluemix Schematics service.
     - [Linux](#linux)
   - [Create Cloud Resources using Terraform](#create-cloud-resources-using-terraform)
 - [Examples](#examples)
-  - [Schematics](#schematics)
+  - [Configurations](#configurations)
   - [Modules](#modules)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -52,11 +52,12 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 - **IBM Cloud Schematics** - The service overlay that enables teams to more easily and safely take advantage of Terraform with IBM Bluemix.
 - **[Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)** - which encapsulates all cloud resources. These can be any IaaS resource such as baremetal servers, virtual machines, containers, load balancers, software defined networking resources, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
 - **[Terraform](https://www.terraform.io/)** - The underlying IaC engine used by IBM Cloud Schematics.
-- **Configuration** - analogous to [Terrform Configuration](https://www.terraform.io/docs/configuration/index.html) which is a collection of Terraform files which defines the infrastructure as code.
+- **Configuration** - A [Terrform Configuration](https://www.terraform.io/docs/configuration/index.html) which is a collection of Terraform files which defines the infrastructure as code.
   - [An Example can be found here: github.com/tf-bluemix-loadbalanced-nginx ](https://github.com/ckelner/tf-bluemix-loadbalanced-nginx)
 - **[Modules](https://www.terraform.io/docs/modules/index.html)** - A special reusable configuration that is often used as a building block that encapsulates a certain functionality. Used in both configurations and by other modules. A configuration or module can include _N_ modules.
   - [An Example can be found here: github.com/tf_ibmcloud_local_loadbalancer ](https://github.com/ckelner/tf_ibmcloud_local_loadbalancer)
-- **[Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html)** - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc)
+- **[Configuration Management](https://www.terraform.io/intro/vs/chef-puppet.html)** - tools that install and manage software on any number of resources (baremetal and virtual servers, containers, etc); e.g. chef, puppet, ansible, etc but also bash scripts and images (iso, docker images, vmdk, etc).
+- **Schematic** - A collection of resources that represents an IaC solution. Generally composed of a configuration which potentially uses some _N_ # of modules and configuration management for bootstrapping, as well as documentation and diagrams which are all housed in a source control management repository and displayed through the IBM Cloud Schematic service user interfaces (be they API, CLI, or Web UI).
 
 # Terraform Documentation & Resources Supported
 
