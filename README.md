@@ -36,12 +36,12 @@ IBM Cloud Schematics allows users to define their infrastructure in files that c
 
 IBM Cloud Schematics gives IBM a way to offer infrastructure building blocks to its customers, as well as complete and prescriptive solutions. Customers can more quickly build solutions for the platform, understand how to build those solutions, and better grasp how the platform products and offerings can be put together to create solutions.
 
-IBM Cloud Schematics further enables teams and companies to build up a library of componentry that can be reused again and again to net the same results.  From tiny building blocks to complete solutions. Need a hadoop cluster? There is a module to do that, just plug in your variables! This allows cross-team and cross-organization code reuse and ensures that the company is working to solve problems as a unit and solving them in the best way possible.
+IBM Cloud Schematics further enables teams and companies to build up a library of resources that can be reused again and again to net the same results.  From tiny building blocks to complete solutions. Need a hadoop cluster? There is a module to do that, just plug in your variables! This allows cross-team and cross-organization code reuse and ensures that the company is working to solve problems as a unit and solving them in the best way possible.
 
-![Anatomy of a Schematic](anatomy-schematic.jpg)  
+![Anatomy of a Configuration](anatomy-schematic.jpg)  
 [High Resolution available here](anatomy-schematic.png)  
 
-![Using a Schematic](using-schematic.jpg)  
+![Using a Configuration](using-schematic.jpg)  
 [High Resolution available here](using-schematic.png)  
 
 # Video of Terraform Execution
@@ -50,9 +50,9 @@ IBM Cloud Schematics further enables teams and companies to build up a library o
 
 # Terminology
 - **IBM Cloud Schematics** - The service overlay that enables teams to more easily and safely take advantage of Terraform with IBM Bluemix.
-- **[Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)** - which encapsulates all cloud resources. These can be any IaaS component such as baremetal servers, virtual machines, containers, load balancers, software defined networking components, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
+- **[Infrastructure as code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_Code)** - which encapsulates all cloud resources. These can be any IaaS resource such as baremetal servers, virtual machines, containers, load balancers, software defined networking resources, etc; SaaS offerings such as watson services, message hub (message queue), etc; or PaaS offerings such as D(ata)B(ase)aaS, functions as a service (OpenWhisk), etc.
 - **[Terraform](https://www.terraform.io/)** - The underlying IaC engine used by IBM Cloud Schematics.
-- **Schematic** - is another term for a [Terrform Configuration](https://www.terraform.io/docs/configuration/index.html) which is a collection of Terraform files which defines the infrastructure as code.
+- **Configuration** - analogous to [Terrform Configuration](https://www.terraform.io/docs/configuration/index.html) which is a collection of Terraform files which defines the infrastructure as code.
   - [An Example can be found here: github.com/tf-bluemix-loadbalanced-nginx ](https://github.com/ckelner/tf-bluemix-loadbalanced-nginx)
 - **[Modules](https://www.terraform.io/docs/modules/index.html)** - A special reusable configuration that is often used as a building block that encapsulates a certain functionality. Used in both configurations and by other modules. A configuration or module can include _N_ modules.
   - [An Example can be found here: github.com/tf_ibmcloud_local_loadbalancer ](https://github.com/ckelner/tf_ibmcloud_local_loadbalancer)
@@ -104,7 +104,7 @@ Place the `terraform` binary into `/usr/local/`. If you already have `terraform`
 Navigate to [https://github.com/IBM-Bluemix/tf-single-vm](https://github.com/IBM-Bluemix/tf-single-vm) and follow the directions in the README. It will guide you through setting up your credentials and executing Terraform to create running resources from the configuration.
 
 # Examples  
-## Schematics  
+## Configurations  
 - [tf-single-vm](https://github.com/IBM-Bluemix/tf-single-vm)
 - [tf-bluemix-loadbalanced-nginx](https://github.com/ckelner/tf-bluemix-loadbalanced-nginx)
 
